@@ -35,9 +35,14 @@ This project is a standalone **retro gaming station** based on the ZimaBoard 2 a
 
 ## Controller (ESP32-S3)
 - The ESP can be programmed when already soldered onto the board, since a data connection is present in the USB-C connector.
-- Respective firmware (.INO) files are to be flashed via the [Arduino IDE](https://www.arduino.cc/en/software/)
+- Controller firmware uses the repo [ESP32-BLE-Gamepad](https://github.com/lemmingDev/ESP32-BLE-Gamepad) as a base for the wireless Bluetooth functionality.
+- The firmware (.INO) file can be flashed via the [Arduino IDE](https://www.arduino.cc/en/software/)
 
 ## Console Unit (ZimaBoard 2)
 - A standard Batocera build is used for the ZimaBoard, which you can access [here](https://batocera.org/download). Select the version for *"Desktop PC, Laptop, NUC and Intel-based Apple Computers".*
-- Controller firmware uses the repo [ESP32-BLE-Gamepad](https://github.com/lemmingDev/ESP32-BLE-Gamepad) as a base for the wireless Bluetooth functionality.
-- **Shell Script functionality documentation coming soon!**
+
+1. Create a *"cdrom-staging"* folder at */userdata/system/*
+2. Create a *"cd-scripts"* folder at */userdata/system/*
+3. Place the .sh scripts in the *"cd-scripts"* folder.
+
+*More specific setup instructions coming soon!*
