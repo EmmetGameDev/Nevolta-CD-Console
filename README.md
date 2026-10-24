@@ -28,7 +28,7 @@ This project is a standalone **retro gaming station** based on the ZimaBoard 2 a
 4. Connect the battery.
 5. Insert the Controller_Buttons into their respective holes in Controller_Faceplate.
 6. Insert the Controller_Bumpers and Controller_Triggers into their respective slots in Controller_Body.
-7. Put the Controller_Faceplate on top of the Controller body, and secure it with 4xM2 screws.
+7. Put the Controller_Faceplate on top of the Controller_Body, and secure it with 4xM2 screws.
 
 ## Console Unit
 1. Melt in 4xM2 Heated Inserts into their respective holes in Console_Bottom.
@@ -54,5 +54,5 @@ This project is a standalone **retro gaming station** based on the ZimaBoard 2 a
 
 ### - Controller Pairing
 1. Open the Bluetooth setting in Batocera
-2. Turn on the controller. It should display *"Searching..."* continously
+2. Turn on the controller. It should display *"Searching..."* continuously
 3. Scan for devices, and select *"ESP32 Gamepad"* 
