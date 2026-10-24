@@ -22,7 +22,13 @@ This project is a standalone **retro gaming station** based on the ZimaBoard 2 a
 # Assembly
 
 ## Custom Controller
-*Coming Soon*
+1. Melt in 4xM2 Heated Inserts into their respective holes in Controller_Faceplate.
+2. Put the assembled PCB into Controller_Body.
+3. Insert the battery into Controller_Batteryslot, and hook the compartment into Controller_Body.
+4. Connect the battery.
+5. Insert the Controller_Buttons into their respective holes in Controller_Faceplate.
+6. Insert the Controller_Bumpers and Controller_Triggers into their respective slots in Controller_Body.
+7. Put the Controller_Faceplate on top of the Controller body, and secure it with 4xM2 screws.
 
 ## Console Unit
 1. Melt in 4xM2 Heated Inserts into their respective holes in Console_Bottom.
@@ -41,8 +47,12 @@ This project is a standalone **retro gaming station** based on the ZimaBoard 2 a
 ## Console Unit (ZimaBoard 2)
 - A standard Batocera build is used for the ZimaBoard, which you can access [here](https://batocera.org/download). Select the version for *"Desktop PC, Laptop, NUC and Intel-based Apple Computers".*
 
+### - CD Functionality
 1. Create a *"cdrom-staging"* folder at */userdata/system/*
 2. Create a *"cd-scripts"* folder at */userdata/system/*
 3. Place the .sh scripts in the *"cd-scripts"* folder.
 
-*More specific setup instructions coming soon!*
+### - Controller Pairing
+1. Open the Bluetooth setting in Batocera
+2. Turn on the controller. It should display *"Searching..."* continously
+3. Scan for devices, and select *"ESP32 Gamepad"* 
